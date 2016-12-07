@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#03b4fa</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="mian.tv.num">#353434</color>
+    <color name="mian.tv.oper">#605f5f</color>
+    <color name="mian.barra">#00ffb2</color>
+    <color name="mian.texto">#ffffff</color>
+</resources>

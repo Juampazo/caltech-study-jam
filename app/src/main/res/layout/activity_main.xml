@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="167dp"
+    tools:context="com.hi_tech.caltech.MainActivity">
+
+    <TextView
+        android:id="@+id/tv.coma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main.tv.coma"
+        android:textSize="@dimen/main.tv.numeros"
+        android:padding="@dimen/main.tv.num.padding"
+        android:background="@color/mian.tv.num"
+        android:textColor="@color/mian.texto"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/tv.cero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main.tv.cero"
+        android:textSize="@dimen/main.tv.numeros"
+        android:padding="@dimen/main.tv.num.padding"
+        android:background="@color/mian.tv.num"
+        android:textColor="@color/mian.texto"
+        android:layout_toRightOf="@id/tv.coma"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/tv.igual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main.tv.igual"
+        android:textSize="@dimen/main.tv.numeros"
+        android:padding="@dimen/main.tv.num.padding"
+        android:background="@color/mian.tv.num"
+        android:textColor="@color/mian.texto"
+        android:layout_toRightOf="@id/tv.cero"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/tv.uno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main.tv.1"
+        android:textSize="@dimen/main.tv.numeros"
+        android:padding="@dimen/main.tv.num.padding"
+        android:background="@color/mian.tv.num"
+        android:textColor="@color/mian.texto"
+        android:layout_above="@id/tv.coma"/>
+
+    <TextView
+        android:id="@+id/tv.dos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main.tv.2"
+        android:textSize="@dimen/main.tv.numeros"
+        android:padding="@dimen/main.tv.num.padding"
+        android:background="@color/mian.tv.num"
+        android:textColor="@color/mian.texto"
+        android:layout_above="@id/tv.cero"
+        android:layout_toRightOf="@id/tv.uno"/>
+
+    <TextView
+        android:id="@+id/tv.tres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main.tv.3"
+        android:textSize="@dimen/main.tv.numeros"
+        android:padding="@dimen/main.tv.num.padding"
+        android:background="@color/mian.tv.num"
+        android:textColor="@color/mian.texto"
+        android:layout_above="@id/tv.igual"
+        android:layout_toRightOf="@id/tv.dos"/>
+
+    <TextView
+        android:id="@+id/tv.cuatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main.tv.4"
+        android:textSize="@dimen/main.tv.numeros"
+        android:padding="@dimen/main.tv.num.padding"
+        android:background="@color/mian.tv.num"
+        android:textColor="@color/mian.texto"
+        android:layout_above="@id/tv.uno"/>
+
+    <TextView
+        android:id="@+id/tv.cinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main.tv.5"
+        android:textSize="@dimen/main.tv.numeros"
+        android:padding="@dimen/main.tv.num.padding"
+        android:background="@color/mian.tv.num"
+        android:textColor="@color/mian.texto"
+        android:layout_above="@id/tv.dos"
+        android:layout_toRightOf="@id/tv.cuatro"/>
+
+    <TextView
+        android:id="@+id/tv.seis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main.tv.6"
+        android:textSize="@dimen/main.tv.numeros"
+        android:padding="@dimen/main.tv.num.padding"
+        android:background="@color/mian.tv.num"
+        android:textColor="@color/mian.texto"
+        android:layout_above="@id/tv.tres"
+        android:layout_toRightOf="@id/tv.cinco"/>
+
+    <TextView
+        android:id="@+id/tv.siete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main.tv.7"
+        android:textSize="@dimen/main.tv.numeros"
+        android:padding="@dimen/main.tv.num.padding"
+        android:background="@color/mian.tv.num"
+        android:textColor="@color/mian.texto"
+        android:layout_above="@id/tv.cuatro"/>
+
+    <TextView
+        android:id="@+id/tv.ocho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main.tv.8"
+        android:textSize="@dimen/main.tv.numeros"
+        android:padding="@dimen/main.tv.num.padding"
+        android:background="@color/mian.tv.num"
+        android:textColor="@color/mian.texto"
+        android:layout_above="@id/tv.cinco"
+        android:layout_toRightOf="@id/tv.siete"/>
+
+    <TextView
+        android:id="@+id/tv.nueve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main.tv.9"
+        android:textSize="@dimen/main.tv.numeros"
+        android:padding="@dimen/main.tv.num.padding"
+        android:background="@color/mian.tv.num"
+        android:textColor="@color/mian.texto"
+        android:layout_above="@id/tv.seis"
+        android:layout_toRightOf="@id/tv.ocho"/>
+
+    <LinearLayout
+        android:id="@+id/oper"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/tv.nueve"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/tv.ce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main.tv.del"
+            android:textSize="@dimen/main.tv.operadores"
+            android:padding="@dimen/main.tv.ope.padding"
+            android:background="@color/mian.tv.oper"
+            android:textColor="@color/mian.texto"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv.entre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main.tv.entre"
+            android:textSize="@dimen/main.tv.operadores"
+            android:padding="@dimen/main.tv.ope.padding"
+            android:background="@color/mian.tv.oper"
+            android:textColor="@color/mian.texto"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv.por"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main.tv.por"
+            android:textSize="@dimen/main.tv.operadores"
+            android:padding="@dimen/main.tv.ope.padding"
+            android:background="@color/mian.tv.oper"
+            android:textColor="@color/mian.texto"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv.menos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main.tv.menos"
+            android:textSize="@dimen/main.tv.operadores"
+            android:padding="@dimen/main.tv.ope.padding"
+            android:background="@color/mian.tv.oper"
+            android:textColor="@color/mian.texto"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv.mas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main.tv.mas"
+            android:textSize="@dimen/main.tv.operadores"
+            android:padding="@dimen/main.tv.ope.padding"
+            android:background="@color/mian.tv.oper"
+            android:textColor="@color/mian.texto"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/oper"
+        android:background="@color/mian.barra">
+    </LinearLayout>
+
+</RelativeLayout>

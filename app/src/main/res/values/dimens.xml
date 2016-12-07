@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="main.tv.num.padding">30dp</dimen>
+    <dimen name="main.tv.ope.padding">8dp</dimen>
+    <dimen name="main.tv.numeros">30sp</dimen>
+    <dimen name="main.tv.operadores">20sp</dimen>
+</resources>

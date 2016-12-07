@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Robotina</string>
+
+    <string name="main.tv.coma">,</string>
+    <string name="main.tv.cero">0</string>
+    <string name="main.tv.igual">=</string>
+    <string name="main.tv.1">1</string>
+    <string name="main.tv.2">2</string>
+    <string name="main.tv.3">3</string>
+    <string name="main.tv.4">4</string>
+    <string name="main.tv.5">5</string>
+    <string name="main.tv.6">6</string>
+    <string name="main.tv.7">7</string>
+    <string name="main.tv.8">8</string>
+    <string name="main.tv.9">9</string>
+    <string name="main.tv.del">DEL</string>
+    <string name="main.tv.entre">/</string>
+    <string name="main.tv.por">x</string>
+    <string name="main.tv.menos">-</string>
+    <string name="main.tv.mas">+</string>
+</resources>
