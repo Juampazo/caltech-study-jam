@@ -3,7 +3,7 @@ CalTech
 
 Este es un ejemplo basico de descripcion en GitHub.
 
-Requisitos
+Lo que necesitás wachin
 ------
 
 * Android Studio 2.2.2
