@@ -12,4 +12,8 @@ Requisitos
 Captura
 -----
 
-[Mi_Captura](/img/captura.png)
+<div align="center">
+    <center>
+        <img src="/img/capture.png" width="300">
+    </center>
+</div>
